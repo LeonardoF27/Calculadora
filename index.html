@@ -12,32 +12,32 @@
 
     <div class="calculadora">
 
-        <p class="resultado"></p>
+        <p id="resultado"></p>
 
         <div class="button">
-            <button class="bg-light-gray">C</button>
+            <button class="bg-light-gray" onclick="clean()">C</button>
             <button class="bg-light-gray"><</button>
-            <button class="bg-light-gray">%</button>
-            <button class="bg-orange">/</button>
+            <button class="bg-light-gray" onclick="inserir('%')">%</button>
+            <button class="bg-orange" onclick="inserir('/')">/</button>
 
-            <button class="bg-gray">7</button>
-            <button class="bg-gray">8</button>
-            <button class="bg-gray">9</button>
-            <button class="bg-orange">x</button>
+            <button class="bg-gray" onclick="inserir('7')">7</button>
+            <button class="bg-gray" onclick="inserir('8')">8</button>
+            <button class="bg-gray" onclick="inserir('9')">9</button>
+            <button class="bg-orange" onclick="inserir('x')">x</button>
 
-            <button class="bg-gray">4</button>
-            <button class="bg-gray">5</button>
-            <button class="bg-gray" >6</button>
-            <button class="bg-orange">-</button>
+            <button class="bg-gray" onclick="inserir('4')">4</button>
+            <button class="bg-gray" onclick="inserir('5')">5</button>
+            <button class="bg-gray" onclick="inserir('6')">6</button>
+            <button class="bg-orange" onclick="inserir('-')">-</button>
 
-            <button class="bg-gray">1</button>
-            <button class="bg-gray">2</button>
-            <button class="bg-gray">3</button>
-            <button class="bg-orange">+</button>
+            <button class="bg-gray" onclick="inserir('1')">1</button>
+            <button class="bg-gray" onclick="inserir('2')">2</button>
+            <button class="bg-gray" onclick="inserir('3')">3</button>
+            <button class="bg-orange" onclick="inserir('+')">+</button>
 
-            <button class="button_zero bg-gray">0</button>
-            <button class="bg-gray">.</button>
-            <button class="bg-orange">=</button>
+            <button class="button_zero bg-gray" onclick="inserir('0')">0</button>
+            <button class="bg-gray"onclick="inserir('.')">.</button>
+            <button class="bg-orange" onclick="inserir('=')">=</button>
         </div>
     </div>
 

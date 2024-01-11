@@ -1,7 +1,13 @@
+function inserir(numb) {
+    document.querySelector('#resultado').innerHTML += numb;
+}
 
-const bottons = document.querySelectorAll(".button button");
-const result = document.querySelectorAll(".resultado")
+function clean(){
+    document.querySelector('#resultado').innerHTML = '';
+}
 
-const btn = addEventListener("click", function(){
-    console.log("1");
-});
+
+
+
+
+
