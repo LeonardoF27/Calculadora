@@ -10,37 +10,50 @@
 
     <h1>Calculadora</h1>
 
+
+<!-- CALCULADORA -->
     <div class="calculadora">
 
-        <p id="resultado"></p>
+        <!-- Display dos números e resultado -->
+        <p id="tela"></p>
 
-        <div class="button">
-            <button class="bg-light-gray" onclick="clean()">C</button>
-            <button class="bg-light-gray"><</button>
-            <button class="bg-light-gray" onclick="inserir('%')">%</button>
-            <button class="bg-orange" onclick="inserir('/')">/</button>
+        <!--Botão da calculadora  -->
+        <div id="bnt">
 
-            <button class="bg-gray" onclick="inserir('7')">7</button>
-            <button class="bg-gray" onclick="inserir('8')">8</button>
-            <button class="bg-gray" onclick="inserir('9')">9</button>
-            <button class="bg-orange" onclick="inserir('x')">x</button>
+            <!-- Primeira linha -->
+            <button class="bg-light-gray"> C </button>
+            <button class="bg-light-gray"> < </button>
+            <button class="bg-light-gray"> % </button>
+            <button class="bg-orange"> / </button>
 
-            <button class="bg-gray" onclick="inserir('4')">4</button>
-            <button class="bg-gray" onclick="inserir('5')">5</button>
-            <button class="bg-gray" onclick="inserir('6')">6</button>
-            <button class="bg-orange" onclick="inserir('-')">-</button>
+            <!-- Segunda linha -->
+            <button class="bg-gray numero"> 7 </button>
+            <button class="bg-gray numero"> 8 </button>
+            <button class="bg-gray numero"> 9 </button>
+            <button class="bg-orange"> x </button>
 
-            <button class="bg-gray" onclick="inserir('1')">1</button>
-            <button class="bg-gray" onclick="inserir('2')">2</button>
-            <button class="bg-gray" onclick="inserir('3')">3</button>
-            <button class="bg-orange" onclick="inserir('+')">+</button>
+            <!-- Terceira linha -->
+            <button class="bg-gray numero"> 4 </button>
+            <button class="bg-gray numero"> 5 </button>
+            <button class="bg-gray numero"> 6 </button>
+            <button class="bg-orange">-</button>
 
-            <button class="button_zero bg-gray" onclick="inserir('0')">0</button>
-            <button class="bg-gray"onclick="inserir('.')">.</button>
-            <button class="bg-orange" onclick="inserir('=')">=</button>
+            <!-- Quarta linha-->
+            <button class="bg-gray numero"> 1 </button>
+            <button class="bg-gray numero"> 2 </button>
+            <button class="bg-gray numero"> 3 </button>
+            <button class="bg-orange"> + </button>
+
+            <!-- Quinta linha -->
+            <button class="button_zero bg-gray numero"> 0 </button>
+            <button class="bg-gray ponto"> . </button>
+            <button class="bg-orange"> = </button>
+
         </div>
+
     </div>
 
+    <!-- Meu script -->
     <script src="index.js"></script>
     
 </body>

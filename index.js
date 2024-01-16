@@ -1,13 +1,9 @@
-function inserir(numb) {
-    document.querySelector('#resultado').innerHTML += numb;
-}
+const display = document.getElementById("tela");
 
-function clean(){
-    document.querySelector('#resultado').innerHTML = '';
-}
-
-
-
-
-
-
+// ESCREVER NUMÉROS NA TELA
+var numb  = document.querySelectorAll('.numero');
+numb.forEach(function (button) {
+    button.addEventListener("click", function () {
+        display.innerHTML += button.innerText;
+        });
+});
