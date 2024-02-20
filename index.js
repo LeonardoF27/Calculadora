@@ -12,9 +12,10 @@ numb.forEach(function (button) {
 btnPonto = document.querySelectorAll('.ponto');
 btnPonto.forEach(function (button) {
 button.addEventListener("click", function () {
-        display.innerHTML += button.innerText;
+      let ponto = display.innerHTML += button.innerText;
+
         
-    })
+    });
 });
 // LIMPAR O DISPLAY
 var limparDisplay = document.getElementById('limpar');
